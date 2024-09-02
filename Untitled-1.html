@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Undangan Pernikahan</h1>
+            <p>12 Desember 2024</p>
+        </header>
+        
+        <section class="couple">
+            <h2>Nadia & Fajar</h2>
+            <div class="photos">
+                <img src="images/nadia.jpg" alt="Foto Nadia">
+                <img src="images/fajar.jpg" alt="Foto Fajar">
+            </div>
+            <p>Dengan penuh rasa syukur dan kebahagiaan, kami mengundang Anda untuk merayakan pernikahan kami.</p>
+        </section>
+
+        <section class="details">
+            <h2>Detail Acara</h2>
+            <p><strong>Tanggal:</strong> 12 Desember 2024</p>
+            <p><strong>Waktu:</strong> 10:00 WIB</p>
+            <p><strong>Lokasi:</strong> Gedung Serbaguna, Jl. Bahagia No. 123, Jakarta</p>
+        </section>
+
+        <section class="rsvp">
+            <h2>RSVP</h2>
+            <p>Mohon konfirmasi kehadiran Anda melalui WhatsApp di nomor <a href="tel:+628123456789">+628123456789</a></p>
+        </section>
+        
+        <footer>
+            <p>Dengan penuh cinta, Nadia & Fajar</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff6347;
+}
+
+.couple h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #ff6347;
+}
+
+.couple .photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.couple .photos img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ff6347;
+}
+
+.details, .rsvp {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
